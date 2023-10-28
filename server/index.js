@@ -28,7 +28,7 @@ const io = new Server(server, {
 }); // crear instancia de socket.io para poder utilizar sus métodos
 
 const db = createClient({
-	url: 'libsql://stunning-harpoon-ospinajohn.turso.io',
+	url: 'link que se genera en turso',
 	authToken: process.env.DB_TOKEN,
 });
 
